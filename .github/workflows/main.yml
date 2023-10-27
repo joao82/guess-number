@@ -23,7 +23,7 @@ jobs:
         key: ${{ secrets.SSH_PRIVATE_KEY }}
         port: 22
         script: |
-          cd /var/www/guess-number/
+          cd /www/wwwroot/githubtest.joao-martins.net/
           git pull origin main
           git status
           
